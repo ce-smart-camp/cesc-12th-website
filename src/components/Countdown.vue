@@ -1,19 +1,15 @@
 <template>
   <div class='timer'>
 
-    
       <p class="digit">{{ days | two_digits }}</p>
       <p class="text">Days</p>
     
-   
       <p class="digit">{{ hours | two_digits }}</p>
       <p class="text">Hours</p>
-    
     
       <p class="digit">{{ minutes | two_digits }}</p>
       <p class="text">Minutes</p>
    
-    
       <p class="digit">{{ seconds | two_digits }}</p>
       <p class="text">Seconds</p>
     
