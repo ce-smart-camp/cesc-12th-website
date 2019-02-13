@@ -2,20 +2,23 @@
   <v-container bg fill-height grid-list-md text-xs-center>
     <v-layout row wrap align-center>
       <v-container>
-        <img src="../assets/logo.png" width="450" height="450">
-        <Countdown date="August 15, 2016"></Countdown>
+        <side-menu/>
+        <img src="../assets/logo.svg" width="430" height="430">
+        <Countdown passed_date="December 15, 2019"></Countdown>
       </v-container>
     </v-layout>
   </v-container>
 </template>
 
 <script>
+import SideMenu from './SideMenu.vue'
 import Countdown from './Countdown.vue'
 
 export default {
   name: 'MainPage',
   components: {
-    Countdown
+    Countdown,
+    SideMenu
   }
 }
 </script>
