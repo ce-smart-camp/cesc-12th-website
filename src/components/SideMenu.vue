@@ -99,16 +99,7 @@
 
 <script>
 export default {
-  name: "SideMenu",
-  data() {
-    return {
-      items: [
-        { title: "Dashboard", icon: "dashboard" },
-        { title: "Account", icon: "account_box" },
-        { title: "Admin", icon: "gavel" }
-      ]
-    };
-  }
+  name: "SideMenu"
 };
 </script>
 
