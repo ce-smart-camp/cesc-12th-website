@@ -1,12 +1,13 @@
 <template>
   <div id="app">
     <v-app>
-      <MainPage/>
+      <main-page/>
     </v-app>
   </div>
 </template>
 
 <script>
+
 import MainPage from './components/MainPage'
 
 export default {
@@ -24,6 +25,6 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  margin-top: 0px;
 }
 </style>
