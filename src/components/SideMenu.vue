@@ -50,7 +50,7 @@
       small
       class="blue"
     >
-      <v-icon>mdi-signal-variant</v-icon>   
+      <v-icon>mdi-robot</v-icon>   
     </v-btn>
     <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IOT</span>
     </v-tooltip>
