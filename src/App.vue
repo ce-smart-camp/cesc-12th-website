@@ -4,24 +4,28 @@
       <side-menu/>
       <main-page/>
     </v-app>
+    <v-app id="contact">
+      <contact-page/>
+    </v-app>
   </div>
 </template>
 
 <script>
-import SideMenu from './components/SideMenu'
-import MainPage from './components/MainPage'
-
+import SideMenu from "./components/SideMenu";
+import MainPage from "./components/MainPage";
+import contactPage from "./components/ContactPage";
 export default {
-  name: 'App',
+  name: "App",
   components: {
     MainPage,
-    SideMenu
+    SideMenu,
+    contactPage
   }
-}
+};
 </script>
 
 <style scoped>
-.app{
+.app {
   height: 100vh;
 }
 </style>
