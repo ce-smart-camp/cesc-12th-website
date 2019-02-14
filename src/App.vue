@@ -1,12 +1,12 @@
 <template>
   <div>
-    <v-app id="app">
-      <side-menu/>
+    <side-menu/>
+    <v-app id="main-page">
       <main-page/>
     </v-app>
-    <v-app id="contact">
-      <contact-page/>
-    </v-app>
+    <v-app id="contact-page">
+    <contact-page/>  
+    </v-app>   
   </div>
 </template>
 
@@ -25,7 +25,4 @@ export default {
 </script>
 
 <style scoped>
-.app {
-  height: 100vh;
-}
 </style>

@@ -27,7 +27,4 @@ p {
   font-family: "orbitron", sans-serif;
   font-size: 32px;
 }
-.main-page{
-  height: 100%;
-}
 </style>
