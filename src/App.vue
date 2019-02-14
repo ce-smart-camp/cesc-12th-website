@@ -1,30 +1,27 @@
 <template>
-  <div id="app">
-    <v-app>
+  <div>
+    <v-app id="app">
+      <side-menu/>
       <main-page/>
     </v-app>
   </div>
 </template>
 
 <script>
-
+import SideMenu from './components/SideMenu'
 import MainPage from './components/MainPage'
 
 export default {
   name: 'App',
   components: {
-    MainPage
+    MainPage,
+    SideMenu
   }
 }
 </script>
 
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 0px;
+<style scoped>
+.app{
+  height: 100vh;
 }
 </style>
