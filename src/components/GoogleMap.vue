@@ -1,9 +1,11 @@
 <template>
+<v-container>
+  <h1>Map</h1>
   <GmapMap
     :center="{ lat: 13.72912977, lng: 100.77560306 }"
     :zoom="16"
     map-type-id="terrain"
-    style="width: 500px; height: 300px"
+    style="max-width:100%;height:400px;"
   >
     <GmapMarker
       :key="index"
@@ -13,6 +15,7 @@
       @click="center = m.position;"
     />
   </GmapMap>
+  </v-container>
 </template>
 
 <script>
