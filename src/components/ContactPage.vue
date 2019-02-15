@@ -11,12 +11,12 @@
 
 <script>
 import googleMap from "./GoogleMap.vue";
-import contacContent from "./ContactContent.vue";
+import contactContent from "./ContactContent.vue";
 export default {
   name: "contactPage",
   components: {
     googleMap,
-    contacContent
+    contactContent
   }
 };
 </script>
