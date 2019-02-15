@@ -4,10 +4,12 @@
     <v-app id="main-page">
       <main-page/>
     </v-app>
-    <v-app id="contact">
-      <contact-page/>
-      <Footer/>
+    <v-app id="iot-page">
+      <iot-page/>
     </v-app>
+    <v-app id="contact-page">
+    <contact-page/>  
+    </v-app>   
   </div>
 </template>
 
@@ -15,14 +17,14 @@
 import SideMenu from "./components/SideMenu";
 import MainPage from "./components/MainPage";
 import contactPage from "./components/ContactPage";
-import Footer from "./components/Footer";
+import IotPage from './components/IotPage/IotPage';
 export default {
   name: "App",
   components: {
     MainPage,
     SideMenu,
     contactPage,
-    Footer
+    IotPage
   }
 };
 </script>
