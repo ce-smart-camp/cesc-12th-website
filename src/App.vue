@@ -4,10 +4,10 @@
     <v-app id="main-page">
       <main-page/>
     </v-app>
-      <Footer/>
-      <contact-page/>
-    </v-app>
     <v-app id="contact">
+      <contact-page/>
+      <Footer/>
+    </v-app>
   </div>
 </template>
 
