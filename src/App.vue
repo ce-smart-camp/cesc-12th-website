@@ -6,6 +6,7 @@
     </v-app>
     <v-app id="contact">
       <contact-page/>
+      <Footer/>
     </v-app>
   </div>
 </template>
@@ -14,12 +15,14 @@
 import SideMenu from "./components/SideMenu";
 import MainPage from "./components/MainPage";
 import contactPage from "./components/ContactPage";
+import Footer from "./components/Footer";
 export default {
   name: "App",
   components: {
     MainPage,
     SideMenu,
-    contactPage
+    contactPage,
+    Footer
   }
 };
 </script>

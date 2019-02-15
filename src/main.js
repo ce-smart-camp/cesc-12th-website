@@ -4,6 +4,7 @@ import App from './App.vue'
 import 'vuetify/dist/vuetify.min.css'
 import '@mdi/font/css/materialdesignicons.css'
 import * as VueGoogleMaps from 'vue2-google-maps'
+import '@fortawesome/fontawesome-free'
 Vue.config.productionTip = false
 
 Vue.use(Vuetify, {
@@ -15,13 +16,17 @@ Vue.use(VueGoogleMaps, {
     libraries: 'places'
   }
 })
+
+Vue.use(Vuetify, {
+  iconfont: 'fa'
+})
 new Vue({
-  render: h => h(App),
+  render: h => h(App)
 }).$mount('#app')
 
 Vue.filter('two_digits', function (value) {
   if (value.toString().length <= 1) {
-    return "0" + value.toString();
+    return '0' + value.toString()
   }
-  return value.toString();
-});
+  return value.toString()
+})
