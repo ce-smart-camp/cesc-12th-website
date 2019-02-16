@@ -6,14 +6,14 @@
     </v-app>
     <v-app id="iot-page">
       <iot-page/>
-    <v-app id="FAQs">
+    </v-app>
+    <v-app id="FAQs-page">
       <f-a-qs-page/>
     </v-app>
-    </v-app>
     <v-app id="contact-page">
-    <contact-page/>
-    <Footer/>
-    </v-app>   
+      <contact-page/>
+    <Footer/> 
+    </v-app>
   </div>
 </template>
 
@@ -21,9 +21,9 @@
 import SideMenu from "./components/SideMenu";
 import MainPage from "./components/MainPage";
 import contactPage from "./components/ContactPage";
-import IotPage from './components/IotPage/IotPage';
+import IotPage from "./components/IotPage/IotPage";
 import FAQsPage from "./components/FAQsPage";
-import Footer from './components/Footer';
+import Footer from "./components/Footer";
 export default {
   name: "App",
   components: {

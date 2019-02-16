@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Vuetify from 'vuetify'
 import sal from 'sal.js'
 import App from './App.vue'
+import vueSmoothScroll from 'vue2-smooth-scroll'
 
 import 'sal.js/dist/sal.css'
 import 'vuetify/dist/vuetify.min.css'
@@ -13,6 +14,9 @@ Vue.config.productionTip = false
 Vue.use(Vuetify, {
   iconfont: 'mdi'
 })
+
+Vue.use(vueSmoothScroll)
+
 Vue.use(VueGoogleMaps, {
   load: {
     key: 'AIzaSyAG64BZJIAREfe1AbXxh3Pcylmqi7qENhw',
