@@ -10,10 +10,10 @@
           outline
           clearable
         ></v-text-field>
+        <v-flex v-for="question in Questions " :key="question">
+          <v-textarea outline :value="question.question"></v-textarea>
+        </v-flex>
       </v-flex>
-      <ul id="example">
-        <li v-for="item in items" :key="item">{{item.message}}</li>
-      </ul>
     </v-layout>
   </v-container>
 </template>
@@ -22,7 +22,10 @@
 export default {
   name: "FAQsPage",
   data() {
-    return { items: [{ message: "Foo" }, { message: "Bar" }] };
+    return {
+      Questions: [{ question: "question" },],
+      Answers: [{ answer: "answer" }]
+    };
   }
 };
 </script>
