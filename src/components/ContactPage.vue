@@ -1,7 +1,7 @@
 <template>
   <v-container fluid fill-height grid-list-xd>
     <v-layout justify-center row fill-height pt-5>
-      <v-flex v-for="i in 2" :key="`6${i}`" xs5>
+      <v-flex v-for="i in 2" :key="`6${i}`" xs12 md5>
         <contact-content v-if="i==1"/>
         <google-map v-if="i==2"/>
       </v-flex>
