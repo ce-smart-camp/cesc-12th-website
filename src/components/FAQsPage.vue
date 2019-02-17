@@ -1,5 +1,11 @@
 <template>
-  <v-container>Hello FAQs</v-container>
+  <v-container>
+    <v-layout>
+      <v-flex>
+        flex update 
+      </v-flex>
+    </v-layout>
+  </v-container>
 </template>
 
 <script>

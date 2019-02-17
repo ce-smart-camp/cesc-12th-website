@@ -26,7 +26,7 @@ h1 {
 }
 p {
   font-family: "FC Active Regular", sans-serif;
-  font-size: 18px;
+  font-size: 22px;
 }
 </style>
 
