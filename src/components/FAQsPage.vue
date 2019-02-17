@@ -1,8 +1,8 @@
 <template>
-  <v-container>
+  <v-container bg fill-height>
     <v-layout>
-      <v-flex>
-        flex update 
+      <v-flex xs12 sm12 md12>
+        <v-text-field label="FAQs" outline></v-text-field>
       </v-flex>
     </v-layout>
   </v-container>
