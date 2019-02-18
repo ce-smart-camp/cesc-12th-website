@@ -10,9 +10,12 @@
           outline
           clearable
         ></v-text-field>
-        <v-flex v-for="question in Questions " :key="question">
-          <v-textarea outline :value="question.question"></v-textarea>
-        </v-flex>
+        <v-card-title>
+          <span class="title">Question</span>
+        </v-card-title>
+        <v-card class="mx-auto">
+          <v-card-text>Answer</v-card-text>
+        </v-card>
       </v-flex>
     </v-layout>
   </v-container>
@@ -20,13 +23,7 @@
 
 <script>
 export default {
-  name: "FAQsPage",
-  data() {
-    return {
-      Questions: [{ question: "question" },],
-      Answers: [{ answer: "answer" }]
-    };
-  }
+  name: "FAQsPage"
 };
 </script>
 <style scoped>
