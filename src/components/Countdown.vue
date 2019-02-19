@@ -1,18 +1,16 @@
 <template>
-  <div class='timer'>
+  <div class="timer">
+    <p class="digit">{{ days | two_digits }}</p>
+    <p class="text">Days</p>
 
-      <p class="digit">{{ days | two_digits }}</p>
-      <p class="text">Days</p>
-    
-      <p class="digit">{{ hours | two_digits }}</p>
-      <p class="text">Hours</p>
-    
-      <p class="digit">{{ minutes | two_digits }}</p>
-      <p class="text">Minutes</p>
-   
-      <p class="digit">{{ seconds | two_digits }}</p>
-      <p class="text">Seconds</p>
-    
+    <p class="digit">{{ hours | two_digits }}</p>
+    <p class="text">Hours</p>
+
+    <p class="digit">{{ minutes | two_digits }}</p>
+    <p class="text">Minutes</p>
+
+    <p class="digit">{{ seconds | two_digits }}</p>
+    <p class="text">Seconds</p>
   </div>
 </template>
 
@@ -20,49 +18,49 @@
 export default {
   name: "Countdown",
   props: {
-    passed_date: Number,
+    passed_date: Number
   },
-  data () {
+  data() {
     return {
-      now: Math.trunc((new Date()).getTime() / 1000)
-    }
+      now: Math.trunc(new Date().getTime() / 1000)
+    };
   },
   mounted() {
     window.setInterval(() => {
-      this.now = Math.trunc((new Date()).getTime() / 1000)
-    }, 1000)
+      this.now = Math.trunc(new Date().getTime() / 1000);
+    }, 1000);
   },
   computed: {
-    date () {
-      return Math.trunc(Date.parse(this.passed_date) / 1000)
+    date() {
+      return Math.trunc(Date.parse(this.passed_date) / 1000);
     },
     seconds() {
       return (this.date - this.now) % 60;
     },
-    minutes () {
-      return Math.trunc((this.date - this.now) / 60) % 60
+    minutes() {
+      return Math.trunc((this.date - this.now) / 60) % 60;
     },
-    hours () {
-      return Math.trunc((this.date - this.now) / 60 / 60) % 24
+    hours() {
+      return Math.trunc((this.date - this.now) / 60 / 60) % 24;
     },
-    days () {
-      return Math.trunc((this.date - this.now) / 60 / 60 / 24)
+    days() {
+      return Math.trunc((this.date - this.now) / 60 / 60 / 24);
     }
   }
-}
+};
 </script>
 
 <style scoped>
-.digit{
+.digit {
   padding: 15px;
   display: inline;
-  font-family: 'Orbitron' ,sans-serif;
+  font-family: "Orbitron", sans-serif;
   font-size: 32px;
 }
-.text{
+.text {
   padding: 15px;
   display: inline;
-  font-family: 'Orbitron' ,sans-serif;
+  font-family: "Orbitron", sans-serif;
   font-size: 16px;
 }
 </style>
