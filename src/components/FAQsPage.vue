@@ -113,7 +113,7 @@ export default {
 }
 .question {
   font-family: "FC Active Regular", serif;
-  font-size: 22px;
+  font-size: 24px;
 }
 </style>
 
