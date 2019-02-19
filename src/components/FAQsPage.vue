@@ -5,6 +5,9 @@
         <center>
           <h1 class="faq">FAQs</h1>
         </center>
+        <v-flex xs12 sm12 md12 pt-4>
+          <v-text-field label="Search" outline clearable type="text" v-model="search"></v-text-field>
+        </v-flex>
         <v-flex v-for="blog in blogs" :key="blog" id="content">
           <v-card-title class="question" primary-title>{{blog.question}}</v-card-title>
           <v-card>
