@@ -3,8 +3,7 @@
     <h1>Contact us</h1>
     <p>{{ lorem }}</p>
     <v-layout align-center>
-      <v-icon>mdi-facebook</v-icon>
-      <v-icon>mdi-instagram</v-icon>
+    
     </v-layout>
   </v-container>
 </template>
