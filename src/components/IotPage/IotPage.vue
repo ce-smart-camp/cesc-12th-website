@@ -1,5 +1,5 @@
 <template>
-  <v-container fluid grid-list-lg>
+  <v-container fluid grid-list-lg content-bg>
     <h1 class="header">IoT : Internet of "Things"</h1>
     <v-layout row wrap data-sal="slide-up" data-sal-delay="300" data-sal-easing="ease-out-bounce">
       <v-flex

@@ -1,6 +1,6 @@
 <template>
   <v-footer>
-    <v-flex primary lighten-2 py-3 text-xs-center white--text xs12 wrap>
+    <v-flex primary lighten-2 py-3 text-xs-center white--text xs12 wrap content-bg>
       &copy;2018 —
       <strong>CE Smart Camp 12</strong>
     </v-flex>

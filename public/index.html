@@ -11,8 +11,36 @@
   <link href="../src/assets/fonts/Gotham-Black.otf" rel="stylesheet">
   <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
 </head>
+<style>
+.main-bg-img{
+  background-image: radial-gradient(#FFF,#FFF, #29ABE2,#AA0063);
+  z-index: 0; 
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+}
+.cover-bg-img{
+  background-image:url("./holeBG.png");
+  background-size: cover;
+  width: 100vw;
+  z-index: 1; 
+  position: absolute;
+
+}
+.content-bg{
+  z-index: 2;
+  position: relative;
+}
+.theme--light.application{
+  background: transparent !important;
+}
+</style>
+</style>
 <body >
-  <div id="app"></div>
+  <div class="main-bg-img"></div>
+  <div class="cover-bg-img">
+    <div id="app"></div>
+  </div>
   <!-- built files will be auto injected -->
 </body>
 

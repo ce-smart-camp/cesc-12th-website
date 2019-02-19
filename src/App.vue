@@ -32,11 +32,10 @@ export default {
     contactPage,
     Footer,
     IotPage,
-    AboutPage
+    AboutPage,
   }
 };
 </script>
 
 <style scoped>
-
 </style>
