@@ -2,8 +2,10 @@
   <v-container>
     <h1>Contact us</h1>
     <p>{{ lorem }}</p>
-    <v-layout align-center>
-    
+    <v-layout pt-4 align-center justify-space-around>
+      <v-icon large>fab fa-line</v-icon>
+      <v-icon large>fab fa-facebook</v-icon>
+      <v-icon large>fab fa-instagram</v-icon>
     </v-layout>
   </v-container>
 </template>
