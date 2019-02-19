@@ -8,7 +8,7 @@
         <v-flex xs12 sm12 md12 pt-4>
           <v-text-field label="Search" outline clearable type="text" v-model="search"></v-text-field>
         </v-flex>
-        <v-flex v-for="blog in blogs" :key="blog" id="content">
+        <v-flex v-for="blog in filteredBlogs" :key="blog" id="content">
           <v-card-title class="question" primary-title>{{blog.question}}</v-card-title>
           <v-card>
             <v-card-text class="answer">{{blog.answer}}</v-card-text>
@@ -97,7 +97,9 @@ export default {
   computed: {
     filteredBlogs: function() {
       return this.blogs.filter(blog => {
-        return blog.question.match(this.search);
+        return (
+          blog.question.match(this.search) || blog.answer.match(this.search)
+        );
       });
     }
   }
