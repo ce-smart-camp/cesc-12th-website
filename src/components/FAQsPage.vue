@@ -1,11 +1,11 @@
 <template>
-  <v-container>
-    <v-layout>
+  <v-container fill-height>
+    <v-layout column align-center wrap>
       <v-flex>
         <center>
           <h1 class="faq">FAQs</h1>
         </center>
-        <v-flex xs12 sm12 md12 pt-4>
+        <v-flex pt-4>
           <v-text-field label="Search" outline clearable type="text" v-model="search"></v-text-field>
         </v-flex>
         <v-flex v-for="blog in filteredBlogs" :key="blog" id="content">
