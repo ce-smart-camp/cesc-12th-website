@@ -1,11 +1,14 @@
 <template>
-  <v-container>
-    <v-layout>
+  <v-container fill-height>
+    <v-layout column align-center wrap>
       <v-flex>
         <center>
           <h1 class="faq">FAQs</h1>
         </center>
-        <v-flex v-for="blog in blogs" :key="blog" id="content">
+        <v-flex pt-4>
+          <v-text-field label="Search" outline clearable type="text" v-model="search"></v-text-field>
+        </v-flex>
+        <v-flex v-for="blog in filteredBlogs" :key="blog" id="content">
           <v-card-title class="question" primary-title>{{blog.question}}</v-card-title>
           <v-card>
             <v-card-text class="answer">{{blog.answer}}</v-card-text>
@@ -94,7 +97,9 @@ export default {
   computed: {
     filteredBlogs: function() {
       return this.blogs.filter(blog => {
-        return blog.question.match(this.search);
+        return (
+          blog.question.match(this.search) || blog.answer.match(this.search)
+        );
       });
     }
   }
@@ -113,7 +118,7 @@ export default {
 }
 .question {
   font-family: "FC Active Regular", serif;
-  font-size: 22px;
+  font-size: 24px;
 }
 </style>
 
