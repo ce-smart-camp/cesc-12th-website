@@ -160,7 +160,7 @@ export default {
   destroyed () {
     clearInterval(interval)
   }
-}
+};
 </script>
 
 <style scoped>
