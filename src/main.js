@@ -3,6 +3,7 @@ import Vuetify from 'vuetify'
 import sal from 'sal.js'
 import App from './App.vue'
 
+
 import 'sal.js/dist/sal.css'
 import 'vuetify/dist/vuetify.min.css'
 import '@mdi/font/css/materialdesignicons.css'
@@ -35,6 +36,5 @@ Vue.filter('two_digits', function (value) {
 
   return value.toString();
 });
-
 window.onload = sal();
 

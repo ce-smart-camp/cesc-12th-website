@@ -1,8 +1,11 @@
 <template>
   <div>
     <side-menu/>
-    <v-app id="main-page">
+    <v-app id="main-pages">
       <main-page/>
+    </v-app>
+    <v-app id="about-page">
+      <about-page/>
     </v-app>
     <v-app id="iot-page">
       <iot-page/>
@@ -20,6 +23,7 @@ import MainPage from "./components/MainPage";
 import contactPage from "./components/ContactPage";
 import IotPage from './components/IotPage/IotPage';
 import Footer from './components/Footer';
+import AboutPage from './components/AboutPage/AboutPage';
 export default {
   name: "App",
   components: {
@@ -27,10 +31,12 @@ export default {
     SideMenu,
     contactPage,
     Footer,
-    IotPage
+    IotPage,
+    AboutPage
   }
 };
 </script>
 
 <style scoped>
+
 </style>

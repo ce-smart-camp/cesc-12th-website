@@ -27,4 +27,7 @@ p {
   font-family: "orbitron", sans-serif;
   font-size: 32px;
 }
+.bg{
+  color:black;
+}
 </style>
