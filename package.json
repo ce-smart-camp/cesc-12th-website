@@ -11,7 +11,6 @@
     "sal.js": "^0.5.0",
     "thumbnail-slider": "^0.1.3",
     "vue": "^2.5.22",
-    "vue-carousel": "^0.17.0",
     "vuetify": "^1.5.0"
   },
   "devDependencies": {
