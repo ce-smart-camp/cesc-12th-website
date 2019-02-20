@@ -12,7 +12,7 @@
     </v-tooltip>
 
     <v-tooltip left value="true" disabled="true" content-class="blue">
-      <v-btn slot="activator" fab dark small class="blue" v-smooth-scroll>
+      <v-btn slot="activator" fab dark small class="blue" href="#about-page" v-smooth-scroll>
         <v-icon>fas fa-info-circle</v-icon>
       </v-btn>
       <span>&nbsp;&nbsp;&nbsp;&nbsp;About</span>
@@ -23,6 +23,13 @@
         <v-icon>fas fa-robot</v-icon>
       </v-btn>
       <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IOT</span>
+    </v-tooltip>  
+
+    <v-tooltip left value="true" disabled="true" content-class="blue">
+      <v-btn slot="activator" fab dark small class="blue" href="#gallery-page" v-smooth-scroll>
+        <v-icon>fas fa-images</v-icon>
+      </v-btn>
+      <span>&nbsp;&nbsp;Gallery</span>
     </v-tooltip>
 
     <v-tooltip left value="true" disabled="true" content-class="blue text">
@@ -30,13 +37,6 @@
         <v-icon>fas fa-question-circle</v-icon>
       </v-btn>
       <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FAQs</span>
-    </v-tooltip>
-
-    <v-tooltip left value="true" disabled="true" content-class="blue">
-      <v-btn slot="activator" fab dark small class="blue" v-smooth-scroll>
-        <v-icon>fas fa-images</v-icon>
-      </v-btn>
-      <span>&nbsp;&nbsp;Gallery</span>
     </v-tooltip>
 
     <v-tooltip left value="true" disabled="true" content-class="blue">
