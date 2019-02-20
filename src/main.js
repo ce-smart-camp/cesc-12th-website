@@ -7,11 +7,13 @@ import 'sal.js/dist/sal.css'
 import 'vuetify/dist/vuetify.min.css'
 import '@mdi/font/css/materialdesignicons.css'
 import * as VueGoogleMaps from 'vue2-google-maps'
+
 Vue.config.productionTip = false
 
 Vue.use(Vuetify, {
   iconfont: 'mdi'
 })
+
 Vue.use(VueGoogleMaps, {
   load: {
     key: 'AIzaSyAG64BZJIAREfe1AbXxh3Pcylmqi7qENhw',
@@ -29,4 +31,4 @@ Vue.filter('two_digits', function (value) {
   return value.toString();
 });
 
-window.onload = sal();
+window.onload = sal({ rootMargin: "60% 20%" });
