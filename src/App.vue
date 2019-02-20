@@ -15,7 +15,7 @@
     </v-app>
     <v-app id="contact-page">
       <contact-page/>
-    <Footer/> 
+      <Footer/> 
     </v-app>
   </div>
 </template>

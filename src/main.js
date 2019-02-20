@@ -7,9 +7,7 @@ import vueSmoothScroll from 'vue2-smooth-scroll'
 
 import 'sal.js/dist/sal.css'
 import 'vuetify/dist/vuetify.min.css'
-import '@mdi/font/css/materialdesignicons.css'
 import * as VueGoogleMaps from 'vue2-google-maps'
-import '@fortawesome/fontawesome-free'
 Vue.config.productionTip = false
 
 Vue.use(Vuetify, {
