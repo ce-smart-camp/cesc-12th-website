@@ -8,14 +8,13 @@ import vueSmoothScroll from 'vue2-smooth-scroll'
 import 'sal.js/dist/sal.css'
 import 'vuetify/dist/vuetify.min.css'
 import * as VueGoogleMaps from 'vue2-google-maps'
+
 Vue.config.productionTip = false
 
 Vue.use(Vuetify, {
   iconfont: 'mdi'
 })
-
 Vue.use(vueSmoothScroll)
-
 Vue.use(VueGoogleMaps, {
   load: {
     key: 'AIzaSyAG64BZJIAREfe1AbXxh3Pcylmqi7qENhw',
@@ -40,3 +39,4 @@ Vue.filter('two_digits', function (value) {
 });
 window.onload = sal();
 
+window.onload = sal({ rootMargin: "60% 20%" });

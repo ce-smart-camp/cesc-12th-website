@@ -10,6 +10,9 @@
     <v-app id="iot-page">
       <iot-page/>
     </v-app>
+    <v-app id="gallery-page">
+      <gallery-page/>
+    </v-app>
     <v-app id="FAQs-page">
       <f-a-qs-page/>
     </v-app>
@@ -28,6 +31,7 @@ import IotPage from "./components/IotPage/IotPage";
 import FAQsPage from "./components/FAQsPage";
 import AboutPage from './components/AboutPage/AboutPage';
 import Footer from "./components/Footer";
+import GalleryPage from './components/GalleryPage/GalleryPage';
 export default {
   name: "App",
   components: {
@@ -38,6 +42,7 @@ export default {
     Footer,
     IotPage,
     AboutPage,
+    GalleryPage
   }
 };
 </script>
