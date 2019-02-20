@@ -1,7 +1,7 @@
 <template>
   <v-container>
     <h1>Map</h1>
-
+    
     <GmapMap
       :center="{ lat: 13.72912977, lng: 100.77560306 }"
       :zoom="16"

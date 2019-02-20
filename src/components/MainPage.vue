@@ -1,5 +1,5 @@
 <template>
-  <v-container id='main-page' bg fill-height grid-list-md text-xs-center>
+  <v-container id='main-page' fill-height grid-list-md text-xs-center content-bg>
     <v-layout row wrap align-center>
       <v-container>
         <v-flex xs12>
