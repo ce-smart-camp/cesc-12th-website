@@ -5,7 +5,7 @@
       <main-page/>
     </v-app>
     <v-app id="FAQs">
-      <f-a-qs-page/>
+      <newFAQs/>
     </v-app>
     <v-app id="contact">
       <contact-page/>
@@ -19,13 +19,13 @@ import SideMenu from "./components/SideMenu";
 import MainPage from "./components/MainPage";
 import contactPage from "./components/ContactPage";
 import Footer from "./components/Footer";
-import FAQsPage from "./components/FAQsPage";
+import newFAQs from "./components/newFAQsPage";
 export default {
   name: "App",
   components: {
     MainPage,
     SideMenu,
-    FAQsPage,
+    newFAQs,
     contactPage,
     Footer
   }
