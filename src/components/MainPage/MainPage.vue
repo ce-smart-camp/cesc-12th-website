@@ -3,7 +3,7 @@
     <v-layout row wrap align-center>
       <v-container>
         <v-flex xs12>
-        <img src="../assets/logo.png"/>
+        <img src="../../assets/logo.png"/>
         </v-flex>
         <Countdown deadline="May 23, 2019"></Countdown>
       </v-container>
@@ -12,7 +12,7 @@
 </template>
 
 <script>
-import Countdown from './Countdown.vue'
+import Countdown from './Countdown'
 
 export default {
   name: 'MainPage',

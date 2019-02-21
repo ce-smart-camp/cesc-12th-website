@@ -25,14 +25,13 @@
 
 <script>
 import SideMenu from "./components/SideMenu";
-import MainPage from "./components/MainPage";
-import contactPage from "./components/ContactPage";
+import MainPage from "./components/MainPage/MainPage";
+import contactPage from "./components/ContactPage/ContactPage";
 import IotPage from "./components/IotPage/IotPage";
-import FAQsPage from "./components/FAQsPage";
 import AboutPage from './components/AboutPage/AboutPage';
-import Footer from "./components/Footer";
+import Footer from "./components/ContactPage/Footer";
 import GalleryPage from './components/GalleryPage/GalleryPage';
-import newFAQs from "./components/newFAQsPage";
+import newFAQs from "./components/FAQsPage/newFAQsPage";
 export default {
   name: "App",
   components: {

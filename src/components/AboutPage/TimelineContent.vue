@@ -8,13 +8,13 @@
       <v-layout row wrap align-center justify-center>
           <v-flex md3 xs12 style="text-align: center;">
             <apply-icon style="width:10em;height:10em;"></apply-icon>
-            <p>20 มีนาคม - 25 เมษายน</p>
+            <p>20 มีนาคม - 10 เมษายน</p>
             <p>รับสมัคร</p>
           </v-flex>
           <v-flex md3 xs12 style="text-align: center;">
             <announce-icon style="width:10em;height:10em;"></announce-icon>
             <p>30 เมษายน</p>
-            <p>ประกาศผล</p>
+            <p>ประกาศ</p>
           </v-flex>
           <v-flex md3 xs12 style="text-align: center;">
             <confirm-icon style="width:10em;height:10em;"></confirm-icon>
@@ -23,7 +23,7 @@
           </v-flex>
           <v-flex md3 xs12 style="text-align: center;">
             <camp-icon style="width:10em;height:10em;"></camp-icon>
-            <p>29 พฤษภาคม-3 มิถุนายน</p>
+            <p>31 พฤษภาคม-5 มิถุนายน</p>
             <p>วันค่าย</p>
           </v-flex>
       </v-layout>
