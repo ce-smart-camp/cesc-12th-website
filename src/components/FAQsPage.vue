@@ -1,14 +1,14 @@
 <template>
   <v-container fill-height>
-    <v-layout column align-center wrap>
-      <v-flex>
+    <v-layout column wrap>
+      <v-flex xs12 sm12 md12 lg12 xl12>
         <center>
           <h1 class="faq">FAQs</h1>
         </center>
-        <v-flex pt-4>
+        <v-flex pt-4 xs12 sm12 md12 lg12 xl12>
           <v-text-field label="Search" outline clearable type="text" v-model="search"></v-text-field>
         </v-flex>
-        <v-flex v-for="blog in filteredBlogs" :key="blog" id="content">
+        <v-flex v-for="blog in filteredBlogs" :key="blog" id="content" xs12 sm12 md12 lg12 xl12>
           <v-card-title class="question" primary-title>{{blog.question}}</v-card-title>
           <v-card>
             <v-card-text class="answer">{{blog.answer}}</v-card-text>

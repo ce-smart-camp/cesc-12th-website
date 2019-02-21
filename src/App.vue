@@ -13,8 +13,8 @@
     <v-app id="gallery-page">
       <gallery-page/>
     </v-app>
-    <v-app id="FAQs-page">
-      <f-a-qs-page/>
+    <v-app id="FAQs">
+      <newFAQs/>
     </v-app>
     <v-app id="contact-page">
       <contact-page/>
@@ -32,12 +32,13 @@ import FAQsPage from "./components/FAQsPage";
 import AboutPage from './components/AboutPage/AboutPage';
 import Footer from "./components/Footer";
 import GalleryPage from './components/GalleryPage/GalleryPage';
+import newFAQs from "./components/newFAQsPage";
 export default {
   name: "App",
   components: {
     MainPage,
     SideMenu,
-    FAQsPage,
+    newFAQs,
     contactPage,
     Footer,
     IotPage,
