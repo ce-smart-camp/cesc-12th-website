@@ -9,7 +9,7 @@
           <v-layout slot="header" align-center row spacer>
             <v-flex xs4 sm2 md1>
               <v-avatar slot="activator" size="36px">
-                <img src="../assets/icons/A.png" alt="Avatar" style=" transform: scaleX(-1)">
+                <img src="../../assets/icons/A.png" alt="Avatar" style=" transform: scaleX(-1)">
               </v-avatar>
             </v-flex>
 
