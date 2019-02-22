@@ -1,12 +1,13 @@
 <template>
   <v-container id='main-page' fill-height grid-list-md text-xs-center content-bg>
-    <v-layout row wrap align-center>
-      <v-container>
-        <v-flex xs12>
-        <img src="../../assets/logo.png"/>
+    <v-layout row wrap align-center justify-center>
+      
+        <v-flex lg4 md6 xs12>
+        <v-img :src="require('../../assets/logo.png')" :lazy-src="require('../../assets/logo.png')" />
         </v-flex>
+        <v-flex xs12>
         <Countdown deadline="May 23, 2019"></Countdown>
-      </v-container>
+        </v-flex>
     </v-layout>
   </v-container>
 </template>
