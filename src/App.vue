@@ -13,7 +13,7 @@
     <v-app id="gallery-page">
       <gallery-page/>
     </v-app>
-    <v-app id="FAQs">
+    <v-app id="FAQs-page">
       <newFAQs/>
     </v-app>
     <v-app id="contact-page">
