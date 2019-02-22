@@ -116,7 +116,7 @@ export default {
 }
 
 .header {
-  font-family: "Kanit", sans-serif;
+  font-family: "Orbitron", sans-serif;
   font-size: 36px;
 }
 </style>

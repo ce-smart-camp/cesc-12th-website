@@ -27,7 +27,7 @@ export default {
 
 <style scoped>
 h1 {
-  font-family: "Gotham-Black", sans-serif;
+  font-family: "Orbitron", sans-serif;
   font-size: 36px;
   margin-bottom: 10px;
 }

@@ -19,7 +19,7 @@
             </v-layout>
           </v-img>
           <v-divider light/>
-          <v-card-text>{{items.description}}</v-card-text>
+          <v-card-text><span>{{items.description}}</span></v-card-text>
         </v-card>
       </v-flex>
     </v-layout>
@@ -50,5 +50,8 @@ h1 {
 .header{
   padding: 30px;
   text-align: center;
+}
+span{
+  font-family: "Kanit",sans-serif
 }
 </style>
