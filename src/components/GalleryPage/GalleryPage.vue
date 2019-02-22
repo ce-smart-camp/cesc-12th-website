@@ -71,6 +71,7 @@ export default {
           break;
         case "right":
           this.currentImage = ++this.currentImage % this.pictures.length;
+          break;
         default:
           break;
       }
