@@ -63,14 +63,11 @@
   <v-dialog v-model="dialog">
      <v-card>
         <v-card-title class="headline"><span class="dialog">ประกาศ</span></v-card-title>
-
         <v-card-text>
           <span class="dialog">รอกันหน่อยนะจ๊ะเด็กๆ ค่ายยังไม่เปิดรับสมัคร</span>
         </v-card-text>
-
         <v-card-actions>
           <v-spacer></v-spacer>
-
           <v-btn
             color="green darken-1"
             flat="flat"
@@ -85,8 +82,10 @@
 </template>
 
 <script>
+
 export default {
   name: "SideMenu",
+  
   props:{
     parentRefs:Object
   },
@@ -122,6 +121,7 @@ span {
 .dialog{
   font-family: "Kanit", sans-serif;
   color: red;
+  font-size: 22px;
 }
 </style>
 

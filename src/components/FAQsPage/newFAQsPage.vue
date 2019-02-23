@@ -1,23 +1,3 @@
-<<<<<<< HEAD
-<template>
-  <v-container>
-    <v-layout>
-      <v-flex>Hello FAQs</v-flex>
-    </v-layout>
-  </v-container>
-</template>
-
-<script>
-export default {
-  name: "newFAQs"
-};
-</script>
-
-<style scoped>
-</style>
-
-
-=======
 <template>
   <v-container grid-list-md10>
     <v-layout column align-center pl-5 pr-5>
@@ -142,4 +122,3 @@ export default {
 </style>
 
 
->>>>>>> 27d5e18ae5eba277df38f9f93e02ab8cfd03d5e7
