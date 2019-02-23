@@ -9,12 +9,12 @@
           <v-flex md3 xs12 style="text-align: center;">
             <apply-icon style="width:8em;height:8em;"></apply-icon>
             <p>20 มีนาคม - 10 เมษายน</p>
-            <p>เปิดรับสมัตร*</p>
+            <p>เปิดรับสมัตร</p>
           </v-flex>
           <v-flex md2 xs12 style="text-align: center;">
             <announce-icon style="width:8em;height:8em;"></announce-icon>
             <p>10 - 20 เมษายน</p>
-            <p>ปิดรับสมัคร**</p>
+            <p>แก้ไขและส่งคำตอบเพิ่มเติม</p>
           </v-flex>
           <v-flex md2 xs12 style="text-align: center;">
             <announce-icon style="width:8em;height:8em;"></announce-icon>
@@ -32,8 +32,6 @@
             <p>วันค่าย</p>
           </v-flex>
       </v-layout>
-      <p>*   รับนักเรียนมัธยมปลายทุกแผนการเรียนหรือเทียบเท่า จำนวน 40 คน</p>
-      <p>**  10 เม.ย.-20 เม.ย. 62 ปิดรับสมัครแต่น้องๆคนไหนสมัครแล้วยังสามารถแก้ไขคำตอบได้</p>
   </v-container>
 </template>
 
