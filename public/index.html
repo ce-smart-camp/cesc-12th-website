@@ -1,50 +1,50 @@
 <!DOCTYPE html>
 <html>
-    <script src="http://localhost:8098"></script>
-
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <title>cesc-12th-website</title>
   <link rel="icon" type="image/x-icon" href="./favicon.ico" />
   <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
-  <link href="../src/assets/fonts/FC Active Regular.ttf" rel="stylesheet">
-  <link href="../src/assets/fonts/Gotham-Black.otf" rel="stylesheet">
   <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Kanit|Merriweather" rel="stylesheet">
   <script>
-  // detect IE8 and above, and edge
-if (document.documentMode || /Edge/.test(navigator.userAgent)) {
-    alert('Hello Microsoft User! เปลี่ยนไปใช้ Chrome กับ Firefox กันเถอะ');
-}
+    // detect IE8 and above, and edge
+    if (document.documentMode || /Edge/.test(navigator.userAgent)) {
+      alert('Hello Microsoft User! เปลี่ยนไปใช้ Chrome กับ Firefox กันเถอะ');
+    }
   </script>
 </head>
 <style>
-.main-bg-img{
-  background-image: radial-gradient(#FFF,#FFF, #29ABE2,#AA0063);
-  z-index: 0; 
-  width: 100vw;
-  height: 100vh;
-  position: fixed;
-}
-.cover-bg-img{
-  background-image:url("./holeBG.png");
-  background-size: cover;
-  width: 100vw;
-  z-index: 1; 
-  position: absolute;
+  .main-bg-img {
+    background-image: radial-gradient(#FFF, #FFF, #29ABE2, #AA0063);
+    z-index: 0;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+  }
 
-}
-.content-bg{
-  z-index: 2;
-  position: relative;
-}
-.theme--light.application{
-  background: transparent !important;
-}
+  .cover-bg-img {
+    background-image: url("./holeBG.png");
+    background-size: cover;
+    width: 100vw;
+    z-index: 1;
+    position: absolute;
+
+  }
+
+  .content-bg {
+    z-index: 2;
+    position: relative;
+  }
+
+  .theme--light.application {
+    background: transparent !important;
+  }
 </style>
 </style>
-<body >
+
+<body>
   <div class="main-bg-img"></div>
   <div class="cover-bg-img">
     <div id="app"></div>
