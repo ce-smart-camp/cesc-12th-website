@@ -18,6 +18,7 @@
       <span class="announce">ANNOUNCE</span>
       </v-btn>
       <v-btn round color="error" dark  @click.stop="dialog=true">
+        <v-icon left dark>fas fa-pencil-alt</v-icon>
         <span>REGISTER</span>
       </v-btn>
     </v-layout>
