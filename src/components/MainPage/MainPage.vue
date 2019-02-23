@@ -15,7 +15,7 @@
         round
       >
       <v-icon left dark>fas fa-bullhorn</v-icon>
-      <span class="announce">ANNOUNCE</span>
+      <span>ANNOUNCE</span>
       </v-btn>
       <v-btn round color="error" dark  @click.stop="dialog=true">
         <v-icon left dark>fas fa-pencil-alt</v-icon>
@@ -68,10 +68,6 @@ p {
 }
 span {
   font-family: "orbitron", sans-serif;
-  font-size: 32px;
-}
-.announce{
-  font-family: "Orbitron",sans-serif;
   font-size: 22px;
 }
 .dialog{
