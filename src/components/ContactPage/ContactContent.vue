@@ -3,14 +3,14 @@
     <h1>Contact us</h1>
     <p>{{ lorem }}</p>
     <v-layout pt-4 align-center justify-space-around>
-      <v-btn flat>
-        <v-icon large>fab fa-line</v-icon>
+      <v-btn flat href="http://line.me/ti/p/~Krataiity" target="_blank">
+        <v-icon large color="green accent-4">fab fa-line</v-icon>
       </v-btn>
       <v-btn flat href="https://www.facebook.com/cesckmitl/" target="_blank">
-        <v-icon large>fab fa-facebook</v-icon>
+        <v-icon large color="blue accent-4">fab fa-facebook</v-icon>
       </v-btn>
-      <v-btn flat>
-        <v-icon large>fab fa-instagram</v-icon>
+      <v-btn flat href="https://www.instagram.com/cesckmitl/" target="_blank">
+        <v-icon large color="pink">fab fa-instagram</v-icon>
       </v-btn>
     </v-layout>
   </v-container>
