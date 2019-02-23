@@ -12,9 +12,9 @@
             <p>เปิดรับสมัตร</p>
           </v-flex>
           <v-flex md2 xs12 style="text-align: center;">
-            <announce-icon style="width:8em;height:8em;"></announce-icon>
+            <apply-icon style="width:8em;height:8em;"></apply-icon>
             <p>10 - 20 เมษายน</p>
-            <p>แก้ไขและส่งคำตอบเพิ่มเติม</p>
+            <p>แก้ไขคำตอบเพิ่มเติม</p>
           </v-flex>
           <v-flex md2 xs12 style="text-align: center;">
             <announce-icon style="width:8em;height:8em;"></announce-icon>
