@@ -7,27 +7,27 @@
       </v-layout>
       <v-layout row wrap align-center justify-center>
           <v-flex md3 xs12 style="text-align: center;">
-            <apply-icon style="width:8em;height:8em;"></apply-icon>
+            <img src="../../../src/assets/icons/icon1.png" style="width:9em;height:9em;"/>
             <p>20 มีนาคม - 10 เมษายน</p>
             <p>เปิดรับสมัตร</p>
           </v-flex>
           <v-flex md2 xs12 style="text-align: center;">
-            <apply-icon style="width:8em;height:8em;"></apply-icon>
+             <img src="../../../src/assets/icons/icon1.png" style="width:9em;height:9em;"/>
             <p>10 - 20 เมษายน</p>
             <p>แก้ไขคำตอบเพิ่มเติม</p>
           </v-flex>
           <v-flex md2 xs12 style="text-align: center;">
-            <announce-icon style="width:8em;height:8em;"></announce-icon>
+            <img src="../../../src/assets/icons/icon2.png" style="width:9em;height:9em;"/>
             <p>30 เมษายน</p>
             <p>ประกาศ</p>
           </v-flex>
           <v-flex md2 xs12 style="text-align: center;">
-            <confirm-icon style="width:8em;height:8em;"></confirm-icon>
+            <img src="../../../src/assets/icons/icon3.png" style="width:9em;height:9em;"/>
             <p>1 - 3 พฤษภาคม</p>
             <p>ยืนยันสิทธิ์</p>
           </v-flex>
           <v-flex md3 xs12 style="text-align: center;">
-            <camp-icon style="width:8em;height:8em;"></camp-icon>
+             <img src="../../../src/assets/icons/icon4.png" style="width:9em;height:9em;"/>
             <p>31 พฤษภาคม-5 มิถุนายน</p>
             <p>วันค่าย</p>
           </v-flex>
@@ -36,20 +36,12 @@
 </template>
 
 <script>
-import applyIcon from '../../../src/assets/icons/icon_apply.svg'
-import announceIcon from '../../../src/assets/icons/icon_announce.svg'
-import confirmIcon from '../../../src/assets/icons/icon_confirm_2.svg'
-import campIcon from '../../../src/assets/icons/icon_camp.svg'
 export default {
   name: "TimelineContent",
   data: function() {
     
   },
   components:{
-      applyIcon,
-      announceIcon,
-      confirmIcon,
-      campIcon
   }
 };
 </script>
