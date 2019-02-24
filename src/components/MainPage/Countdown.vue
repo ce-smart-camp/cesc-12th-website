@@ -169,11 +169,13 @@ export default {
   text-align: center;
   perspective: 600px;
   margin: 0 auto;
+  z-index: -1;
 }
 .flip-clock *,
 .flip-clock *:before,
 .flip-clock *:after {
   box-sizing: border-box;
+  z-index: -1;
 }
 .flip-clock__piece {
   display: inline-block;

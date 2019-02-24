@@ -8,7 +8,7 @@
         />
       </v-flex>
       <v-flex xs12>
-        <Countdown deadline="March 20, 2019"></Countdown>
+        <Countdown class="clock" deadline="March 20, 2019"></Countdown>
       </v-flex>
       <v-btn
         color="success"
@@ -83,5 +83,8 @@ span {
   font-family: "Kanit", sans-serif;
   font-size:22px;
   color: red;
+}
+.clock{
+  z-index: -1;
 }
 </style>
