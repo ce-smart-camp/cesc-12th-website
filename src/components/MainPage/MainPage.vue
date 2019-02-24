@@ -13,6 +13,7 @@
       <v-btn
         color="success"
         round
+        @click.stop="announce=true"
       >
       <v-icon left dark>fas fa-bullhorn</v-icon>
       <span>ANNOUNCE</span>
@@ -42,6 +43,13 @@
       </v-card>
   </v-dialog>
 
+  <v-dialog v-model="announce" :max-width="600">
+    <v-card>
+      <v-card-title><v-button @click.stop="announce=false"><v-icon>fas fa-window-close</v-icon></v-button></v-card-title>
+      <v-card-media><v-img :src="require('../../assets/poster.png')" :lazy-src="require('../../assets/poster.png')"></v-img></v-card-media>
+    </v-card>
+  </v-dialog>
+
   </v-container>
 </template>
 
@@ -52,7 +60,8 @@ export default {
   name: "MainPage",
   data(){
     return {
-      dialog:false
+      dialog:false,
+      announce:false
     }
   },
   components: {
