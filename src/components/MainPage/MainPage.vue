@@ -15,27 +15,12 @@
         <span>ANNOUNCE</span>
       </v-btn>
       <a href="https://reg.cesc.kmi.tl/">
-        <v-btn round color="error" dark @click.stop="dialog=false">
+        <v-btn round color="error" dark >
           <v-icon left dark>fas fa-pencil-alt</v-icon>
           <span>REGISTER</span>
         </v-btn>
       </a>
     </v-layout>
-
-    <v-dialog v-model="dialog">
-      <v-card>
-        <v-card-title class="headline">
-          <span class="dialog">ประกาศ</span>
-        </v-card-title>
-        <v-card-text>
-          <span class="dialog">รอกันหน่อยนะจ๊ะเด็กๆ ค่ายยังไม่เปิดรับสมัคร</span>
-        </v-card-text>
-        <v-card-actions>
-          <v-spacer></v-spacer>
-          <v-btn color="green darken-1" flat="flat" @click="dialog = false">Okay</v-btn>
-        </v-card-actions>
-      </v-card>
-    </v-dialog>
 
     <v-dialog v-model="announce" :max-width="600">
       <v-card>
