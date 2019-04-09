@@ -8,7 +8,7 @@
         />
       </v-flex>
       <v-flex xs12>
-        <Countdown class="clock" deadline="April 10, 2019"></Countdown>
+        <Countdown class="clock" deadline="April 11, 2019"></Countdown>
       </v-flex>
       <v-btn color="success" round @click.stop="announce=true">
         <v-icon left dark>fas fa-bullhorn</v-icon>
